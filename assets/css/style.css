@@ -127,3 +127,69 @@ input {
     text-align: center;
     color: #777777;
 }
+
+@media screen and (max-width: 980px) {
+    .about {
+        padding: 10px 25px 5px 100px;
+    }
+    .content {
+        margin: 25px 100px 25px 100px;
+    }
+    form {
+        margin: 0px 0px 0px 50px;
+    }
+    input {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        position: static;
+    }
+    .header {
+        margin: 25px;
+    }
+    .about {
+        padding: 10px 25px 5px 10px;
+    }
+    .portfolio {
+        padding: 10px 10px 5px 10px;
+    }
+    .content {
+        margin: 25px 150px 25px 150px;
+    }
+    form {
+        margin: 0px 0px 0px 25px;
+    }
+    input {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 640px) {
+    .header {
+        position: static;
+        margin: 15px 5px 15px 15px;
+    }
+    .about {
+        padding: 10px 5px 5px 5px;
+        font-size: 14px;
+    }
+    .portfolio {
+        padding: 10px 2px 2px 2px;
+        font-size: 14px;
+    }
+    .contact {
+        padding: 10px 25px 5px 5px;
+        font-size: 14px;
+    }
+    .content {
+        margin: 25px 100px 25px 100px;
+    }
+    form {
+        margin: 0px 0px 0px 25px;
+    }
+    input {
+        width: 100%;
+    }
+}
